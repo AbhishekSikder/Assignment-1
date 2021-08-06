@@ -1,0 +1,36 @@
+Question 1. int a=1;
+            int b=1;
+            int n;
+          while(b<=n)
+          {
+            a=a+1;
+            b=b+a;
+             cout<<"Hello world";
+          }
+           at the first iteration i=1,a=1,b=1
+                          i=2,a=2 b=3,
+            simmilarly    i=3,a=3,b=6,
+                          i=4,a=4,b=10,
+                          
+                           n=i(i+1)/2
+                           i=sqrt(n);
+                          Ans= o(sqrt n)
+                          
+                          
+  /*In case question 1 is :
+    while(b<=n){
+    a=a+1;
+    b=b+1;
+    cout<<"Hi";
+    
+    }
+    then it is o(n)
+  */
+  Question 2.void (int n)
+              {
+                cout<<n;
+                fun(n-1);
+                cout<<n;
+              }
+              Ans=321123
+     
